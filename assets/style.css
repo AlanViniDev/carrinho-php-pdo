@@ -1,0 +1,155 @@
+/*Inicio do estilo da página home*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html,body{
+    width:100%;
+    height: 700px;
+    overflow: hidden;
+}
+#topo{
+    width: 100%;
+    height:100px;
+    background-color: rgb(152, 152, 240);
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(149, 149, 247);
+}
+figure img{
+    width:65px;
+    height: 55px;
+    position: relative;
+    left:370px;
+    top:-1px;
+}
+#quantidade{
+    background-color: white;
+    width: 50px;
+    height: 18px;
+    position: relative;
+    left:370px;
+    top:-5px;
+}
+#titulo h1{
+    position: relative;
+    top:40px;
+    left:-350px;
+    color:white;
+    font-size: 25px;
+}
+#camisetas{
+    background-color: white;
+    width: 100%;
+}
+
+#subtitulo{
+    text-align: center;
+    color:black;
+    font-size: 35px;
+    position: relative;
+    top:80px;
+}
+
+#imgCarrinho{
+    cursor: pointer;
+}
+
+#produtos{
+    position: relative;
+    top:150px;
+}
+#produtos img{
+    width:130px;
+    height:140px;
+}
+
+ #camisa01{
+    border-style: solid;
+    border-width: 1px;
+    color:black;
+    left:73px;
+    position: relative;
+}
+
+#produtos {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+#preco span{
+    position: relative;
+    top:133px;
+    z-index: 99;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#preco01{
+    position: relative;
+    left:-430px;
+}
+
+#preco02{
+    position: relative;
+    left:-215px;
+}
+
+#preco03{
+    position: relative;
+    left:5px;
+}
+
+#preco04{
+    position: relative;
+    left:217px;
+}
+
+#preco05{
+    position: relative;
+    left:435px;
+}
+
+/*Carrinho*/
+#produtos ul li{
+    margin:50px;
+    display: inline-flex;
+}
+
+input#quantidadeCamisa01{
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    width:50px;
+    height:20px;
+    position: relative;
+    top:140px;
+    left:-91px;
+}
+
+input#adicionarCamisa01{
+    width:20px;
+    height:20px;
+    background:blue;
+    color:white;
+    font-weight: bolder;
+    position: relative;
+    left:-140px;
+}
+
+input#removerCamisa01{
+    width:20px;
+    height:20px;
+    background:red;
+    color:white;
+    font-weight: bolder;
+    position: relative;
+    left:-135px;
+}
