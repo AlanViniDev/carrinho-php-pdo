@@ -1,0 +1,20 @@
+
+CREATE DATABASE sistema;
+
+create table produtos(
+    -> id int(11) NOT NULL auto_increment,
+    -> tipo varchar(100),
+    -> preco varchar(50),
+    -> endereco varchar(50),
+    -> PRIMARY KEY(id) 
+);
+
+INSERT INTO produtos (tipo,preco,endereco)VALUES('camiseta','50,89','img/camisa01.png');
+
+INSERT INTO produtos (tipo,preco,endereco)VALUES('camiseta','150,10','img/camisa02.png');
+
+INSERT INTO produtos (tipo,preco,endereco)VALUES('camiseta','100,15','img/camisa03.png');
+
+INSERT INTO produtos (tipo,preco,endereco)VALUES('camiseta','35,55','img/camisa04.png');
+
+INSERT INTO produtos (tipo,preco,endereco)VALUES('camiseta','250,10','img/camisa05.png');
