@@ -1,11 +1,11 @@
 
 CREATE DATABASE sistema;
 
-create table produtos(
-    -> id int(11) NOT NULL auto_increment,
-    -> tipo varchar(100),
-    -> preco varchar(50),
-    -> endereco varchar(50),
+CREATE TABLE produtos(
+    -> id INT(11) NOT NULL AUTO_INCREMENT,
+    -> tipo VARCHAR(100),
+    -> preco VARCHAR(50),
+    -> endereco VARCHAR(50),
     -> PRIMARY KEY(id) 
 );
 
